@@ -1,0 +1,101 @@
+/*BODY*/
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #eaf2f8;
+}
+
+/*logo*/
+
+.logo {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+}
+
+/*MAIN-CONTAINER*/
+
+.main-container {
+  margin-left: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+/*BOX*/
+
+.box {
+  width: auto;
+  height: auto;
+  color: #020c66;
+  padding-bottom: 2em;
+  border-bottom: solid 1px rgb(129, 129, 127);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h6 {
+  padding: 0;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  font-weight: 600;
+}
+
+.box img {
+  width: 300px;
+  height: 350px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.box img:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+}
+
+/*PARAGRAPH*/
+
+p {
+  margin-top: 100px;
+  color: #070808;
+  font-size: 1em;
+  font-weight: 300;
+  width: 300px;
+  text-align: left;
+  /* margin-bottom: 10px;*/
+}
+
+/*LINK-TAG*/
+
+a {
+  background-color: #0c75ae;
+  color: white;
+  padding: 0.5em;
+  margin-top: 1em;
+  text-decoration: none;
+  border-radius: 35%;
+  font-size: 1em;
+  font-weight: 200;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+a:hover {
+  transform: scale(1.3);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.9);
+}
